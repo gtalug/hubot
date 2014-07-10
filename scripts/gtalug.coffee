@@ -30,9 +30,4 @@ module.exports = (robot) ->
                 
                 content = JSON.parse(body)
                 
-                if content.meta.status isnt 200
-                    msg.send "GTALUG.org failed"
-                    return
-                
-                msg.send "#{content.date} - #{content.title}"
-                msg.send "#{content.url}"
+                msg.send "#{content.date} - #{content.title} - #{content.url}"
