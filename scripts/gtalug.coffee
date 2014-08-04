@@ -11,7 +11,7 @@
 #   upcoming meeting - Show the upcoming GTALUG meeting.
 #
 # TODO Commands:
-#   code of conduct - Display the GTALUG code of conduct.
+#   code of conduct - Display a link to the GTALUG code of conduct.
 #   meeting location - Display where the GTALUG meeting is happening.
 #   meeting date - Display the next time the meeting happens.
 #
@@ -32,7 +32,3 @@ module.exports = (robot) ->
                 content = JSON.parse(body)
                 
                 msg.send "#{content.date} - #{content.title} - #{content.url}"
-		
-	robot.hear 'meeting date', (msg) ->
-		
-		msg.send "GTALUG meetings are on the second Tuesday of the month."
