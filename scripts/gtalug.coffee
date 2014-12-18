@@ -10,7 +10,7 @@
 # Commands:
 #   upcoming meeting - Show the upcoming GTALUG meeting.
 #
-# TODO Commands:
+# TODO:
 #   code of conduct - Display a link to the GTALUG code of conduct.
 #   meeting location - Display where the GTALUG meeting is happening.
 #   meeting date - Display the next time the meeting happens.
